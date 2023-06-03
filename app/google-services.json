@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "935272394813",
+    "project_id": "colegio-asb",
+    "storage_bucket": "colegio-asb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935272394813:android:755083b214927033283a54",
+        "android_client_info": {
+          "package_name": "com.example.colegio_asb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935272394813-896hi3m2sjbtsco3sh556iu9cllm79ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7fLLmkanPhIxqMtnXr5zSkkKFAdRLxQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935272394813-896hi3m2sjbtsco3sh556iu9cllm79ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935272394813:android:c7459bbbe873a21e283a54",
+        "android_client_info": {
+          "package_name": "com.example.colegio_sabados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935272394813-896hi3m2sjbtsco3sh556iu9cllm79ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7fLLmkanPhIxqMtnXr5zSkkKFAdRLxQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935272394813-896hi3m2sjbtsco3sh556iu9cllm79ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

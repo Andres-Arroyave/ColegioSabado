@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EstudiantesActivity">
+<TextView
+    android:id="@+id/tvtitulo"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="35dp"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:text="Estudiantes" ></TextView>
+    <EditText
+      android:id="@+id/etcarnet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="Numero de carnet" />
+
+    <EditText
+        android:id="@+id/etnombre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Nombre de estudiante" />
+
+    <EditText
+        android:id="@+id/etcarrera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="Carrera que estudia" />
+
+    <EditText
+        android:id="@+id/etsemestre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:gravity="center"
+        android:hint="Semestre que cursal" />
+
+    <CheckBox
+        android:layout_marginLeft="50dp"
+        android:id="@+id/cbactivo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="25dp"
+        android:text="Activo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnadicionar"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:onClick="Adicionar"
+            android:text="Adicionar" />
+
+        <Button
+            android:id="@+id/btnconsultar"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:onClick="consultar"
+            android:text="Consultar" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnmodificar"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="Modificar"
+            android:text="Modificar" />
+
+        <Button
+            android:id="@+id/btneliminar"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:onClick="Eliminar"
+            android:text="Eliminar" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnanular"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="Anular"
+            android:text="Anular" />
+
+        <Button
+            android:id="@+id/btncancelar"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="Cancelar"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btncoonsultagen"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="Consulta_general"
+        android:text="Consulta general" />
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="Regresar"
+        android:text="Regresar" />
+
+</LinearLayout>
